@@ -1,11 +1,13 @@
 body{
-	font-family: 'Nunito', sans-serif;
-	color: #faf3bc;
-	background: #420600 url('img/bg-texture.jpg') repeat;
+	font-family: 'Alegreya Sans SC', sans-serif;
+	word-spacing: .15em;
+	color: #123456;
+	text-shadow: 0px 1px 0px #888888;
+	background: #56789a url('img/bg-texture.png') repeat;
 }
 
 a{
-	color: #4fb69f;
+	color: #18407c;
 	text-decoration: none;
 }
 
@@ -16,12 +18,14 @@ h1{
 
 h2 {
 	font-size: 1.500em;
-	color: #b4c34f;
+
+	text-shadow: 2px 2px #222222;
+	color: #abcdef;
 }
 
 .btn{
-	color: #faf3bc;
-	background: #4fb69f url('img/texture.png') no-repeat right top;
+	color: #bce1ff;
+	background: #213854;
 	padding: 15px 30px;
 	margin: 40px 0px;
 	border-radius: 25px;
@@ -29,7 +33,9 @@ h2 {
 }
 
 .btn:hover{
-	background-color: #4cc4a7;
+	color: #00ff00;
+	background-color: #abcdef;
+	background: #213854 url('img/texture.gif') repeat left top;
 }
 
 ul.nav{
@@ -44,20 +50,19 @@ ul.nav li{
 }
 
 ul.nav li a {
-	color: #FAF3BC;
+	color: #bce1ff;
+}
+
+.pic_border img{
+	border: 8px solid #123456;
 }
 
 #intro{
-	margin: 50px 0 75px 0;
+	margin: 20px 17px 75px 0;
 }
 
-#new-cupcakes img{
-	border: 8px solid #faf3bc;
-	margin: 0 0 20px 0;
-}
-
-#featured-cupcake img{
-	border: 8px solid #faf3bc;
+.pic_margin img{
+	margin: 0 0 27px 0;
 }
 
 #copyright{
