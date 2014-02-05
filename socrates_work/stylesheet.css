@@ -1,0 +1,41 @@
+    body{
+      font-family: 'Exo 2', sans-serif;
+      background: #eeeeee;
+      background-image:url('background.png');
+    }
+
+    #wrapper{
+      width: 800px;
+      margin: 0 auto;
+    }
+    ul{
+      list-style-type: disc;
+    }
+
+    ul ol{
+      padding: 10px 0 20px 20px;
+    }
+
+    .cmd_text{
+      color: #fff;
+      background: #1c1e21;
+      padding: 2px;
+      font-family: "Lucida Console", Monaco, monospace;
+    }
+
+    .section_panel{
+      width: 800px;
+      background-color: #c6d9e4;
+      padding: 10px;
+      margin: 20px 0;
+      -webkit-border-radius: 20px;
+      -moz-border-radius: 20px;
+      border-radius: 20px;
+      -webkit-box-shadow: 10px 10px 11px 0px rgba(0,0,0,0.35);
+      -moz-box-shadow: 10px 10px 11px 0px rgba(0,0,0,0.35);
+      box-shadow: 10px 10px 11px 0px rgba(0,0,0,0.35);
+    }
+    .section_panel li{
+      line-height: 1.250em;
+      padding: 5px 0;
+    }

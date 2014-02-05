@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<head>
+  <title>Github Cheat Sheet</title>
+  <link href='http://fonts.googleapis.com/css?family=Exo+2' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet"  type="text/css"  href="stylesheet.css">
+</head>
+<body>
+  <div id="wrapper">
+    <h1>Git Hub Cheat Sheet</h1>
+    <div class="section_panel">
+      <h2>Creating a Repo</h2>
+      <ul>
+        <li>
+          First, make a new repository (a.k.a. Repo) on GitHub:
+          <ol>
+            <li>Click "New Repository".</li>
+            <li>Fill out the following page and click "Create Repository".</li>
+          </ol>
+        </li>
+        <li>
+          Next, you'll create a local directory for your repo.
+          <ol>
+            <li>Via the command line, navigate to your workspace.</li>
+            <li>Create a directory for the repo by typing <span class="cmd_text">mkdir a_directory_name</span>. Replace "a_directory_name" with your own.</li>
+            <li>Type <span class="cmd_text">touch README.md</span> to create an empty readme file for your repo. You may edit it now, or later in a text editor.</li>
+            <li>Type <span class="cmd_text">git init</span> to initialize the directory as an empty git repo.</li>
+            <li>You can make your first commit with the README file. Type <span class="cmd_text">git add README.md</span>.</li>
+            <li>Now type <span class="cmd_text">git commit -m "first commit"</span>.</li>
+            <li>And then <span class="cmd_text">git remote add origin https://github.com/your_github_account/your_repo_name.git</span>. Replace the url with your account and repo.</li>
+            <li>Finally, to push your file to the repo, type <span class="cmd_text">git push -u origin master</span>.</li>
+          </ol>
+        </li>
+      </ul>
+    </div><!-- end <div class="section_panel"> -->
+    <div class="section_panel">
+      <h2>Pushing Files to Existing Repo</h2>
+      <ol>
+        <li>Make sure that your present working directory is the directory where the files to be uploaded are located.</li>
+        <li>Pull the files before you start working on them by typing <span id="cmd_text">git pull </span>.</li>
+        <li>Type <span class="cmd_text">git add</span> to add the file(s) to your staging area. (Use <span class="cmd_text">git add .</span> to recursively add all files.)</li>
+        <li>Check the status by typing <span class="cmd_text">git status</span>.</li>
+        <li>Type <span class="cmd_text">git commit -m "a note explaining the change"</span>. This will record the snapshot you staged with "git add".</li>
+        <li>Pull the files by typing <span class="cmd_text">git pull</span>.
+          <ul>
+            <li>You should recieve a message stating that the files are already up to date.</li>
+            <li>If the files are not up to date, you will be prompted to merge your project with the existing project. You will need to enter comments explaining why the merge is necessary.</li>
+          </ul>
+        </li>
+        <li> Push the files back to the repo by typing <span class="cmd_text">git push</span>.</li>
+      </ol>
+    </div><!-- end <div class="section_panel"> -->
+    <div class="section_panel">
+      <h2>Cloning a Repo</h2>
+      <ol>
+        <li>Make sure you are in the working local directory you would like to clone the repo directory to.</li>
+        <li>Locate the clone URL for the repo, usually located on the right-lower part of the web page for the repo on GitHub.</li>
+        <li>Now type <span class="cmd_text">git clone https://github.com/github_user_name/repo_name.git</span>. The url is the one you copied from GitHub in the prvious step.</li>
+        <li>That's it! Now <span class="cmd_text">CD</span> into the directory that you just downloaded.</li>
+        <li>Then type <span class="cmd_text">git status</span> and it will give you a message indicating what branch you are on, nothing to commit and working directory clean!</li>
+      </ol>
+    </div><!-- end <div class="section_panel"> -->
+  </div><!-- end div id="wrapper"> -->
+</body>
+</html>

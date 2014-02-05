@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf8">
+  <title>My Page</title>
+  <link rel="stylesheet" type="text/css" href="formstyle.css">
+  <script>
+    document.location = "#";
+  </script>
+</head>
+
+<body>
+  <div id="wrapper">
+    <div id="form_box">
+      <form action="#" method="POST" name="symptom_form" class="symptom_form">
+        <table>
+          <tr>
+            <td>
+              <ul>
+                <li>
+                  <h2>NAME</h2>
+                </li>
+                <li>
+                  <label for="firstname">First:</label>
+                  <input type="text" name="firstname" placeholder="John" id="firstname">
+                </li>
+                <li>
+                  <label for="lastname">Last:</label>
+                  <input type="text" name="lastname" placeholder="Doe" id="lastname">
+                </li>
+              </ul>
+            </td>
+            <td class="pad_left">
+              <ul>
+                <li>
+                  <h2>GENDER</h2>
+                </li>
+                <li>
+                  <input type="radio" name="gender" value="Male" id="male">
+                  <label for="male">Male</label>
+                </li>
+                <li>
+                  <input type="radio" name="gender" value="Female" id="female">
+                  <label for="female">Female</label>
+                </li>
+              </ul>
+            </td>
+          </tr>
+        </table>
+        <ul>
+          <li class="center_text">
+            <h2>SYMPTOMS</h2>
+          </li>
+        </ul>
+        <table>
+          <tr>
+            <td>
+              <ul id="symptom_list">
+                <li>
+                  <input type="checkbox" name="symptoms" id="symptom1" value="Foot cramps at night">
+                  <label for="symptom1">Foot cramps at night</label>
+                </li>
+                <li>
+                  <input type="checkbox" name="symptoms" id="symptom2" value="Dry eyes">
+                  <label for="symptom2">Dry eyes</label>
+                </li>
+                <li>
+                  <input type="checkbox" name="symptoms" id="symptom3" value="Eye twitches">
+                  <label for="symptom3">Eye twitches</label>
+                </li>
+                <li>
+                  <input type="checkbox" name="symptoms" id="symptom4" value="Cold for no reason">
+                  <label for="symptom4">Cold for no reason</label>
+                </li>
+                <li>
+                  <input type="checkbox" name="symptoms" id="symptom5" value="Body twitches while sleeping">
+                  <label for="symptom5">Body twitches while sleeping</label>
+                </li>
+                <li>
+                  <input type="checkbox" name="symptoms" id="symptom6" value="Pitted nails">
+                  <label for="symptom6">Pitted nails</label>
+                </li>
+                <li>
+                  <input type="checkbox" name="symptoms" id="symptom7" value="Bright red stool">
+                  <label for="symptom7">Bright red stool</label>
+                </li>
+                <li>
+                  <input type="checkbox" name="symptoms" id="symptom8" value="White tongue">
+                  <label for="symptom8">White tongue</label>
+                </li>
+              </ul>
+            </td>
+            <td>
+              <ul>
+                <li>
+                  <input type="checkbox" name="symptoms" id="symptom9" value="Excessive facial hair in women">
+                  <label for="symptom9">Excessive facial hair in women</label>
+                </li>
+                <li>
+                  <input type="checkbox" name="symptoms" id="symptom10" value="Aching big toe">
+                  <label for="symptom10">Aching big toe</label>
+                </li>
+                <li>
+                  <input type="checkbox" name="symptoms" id="symptom11" value="Unusual urine odor">
+                  <label for="symptom11">Unusual urine odor</label>
+                </li>
+                <li>
+                  <input type="checkbox" name="symptoms" id="symptom12" value="Dark under-eye circles">
+                  <label for="symptom12">Dark under-eye circles</label>
+                </li>
+                <li>
+                  <input type="checkbox" name="symptoms" id="symptom13" value="Weight Loss">
+                  <label for="symptom13">Weight Loss</label>
+                </li>
+                <li>
+                  <input type="checkbox" name="symptoms" id="symptom14" value="Impulsivity">
+                  <label for="symptom14">Impulsivity</label>
+                </li>
+                <li>
+                  <input type="checkbox" name="symptoms" id="symptom15" value="Irritability">
+                  <label for="symptom15">Irritability</label>
+                </li>
+              </ul>
+            </td>
+          </tr>
+        </table>
+        <ul id="submit_button">
+          <li>
+            <input type="submit" value="Continue">
+          </li>
+        </ul>
+      </form>
+    </div><!-- form_box -->
+  </div><!-- wrapper -->
+</body>
+
+</html>
